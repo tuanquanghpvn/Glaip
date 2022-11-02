@@ -31,7 +31,7 @@ final class WalletConnect {
     // gnosis wc bridge: https://safe-walletconnect.gnosis.io/
     // test bridge with latest protocol version: https://bridge.walletconnect.org
     let bridgeURL = URL(string: "https://bridge.walletconnect.org/")!
-    let clientURL = URL(string: "https://safe.gnosis.io")!
+    let clientURL = URL(string: "https://dreamerly.com")!
 
     let wcUrl =  WCURL(topic: UUID().uuidString,
                        bridgeURL: bridgeURL,
